@@ -1,14 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
 
-body {
-    font-family: 'Open Sans', sans-serif;
-    margin: 0px;
-}
 
 :root {
-    --primary-color: #6C63FF;
-    --dark-gray: #4B5563; 
-    --off-white: #D1D5DB;
+    --primary-color: black;
+    --background: yellow;
+    --dark-gray: #4B5563;
+    --off-white: #9CA3AF;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: auto 0px;
 }
 
 hr {
@@ -26,14 +28,14 @@ hr {
 
 .link{
     text-decoration: none;
-    margin: 0.4rem;
-    padding: 0.4rem;
-    display: inline-block;
 }
 
 .button {
     border: 1px solid var(--primary-color);
     border-radius: 1rem;
+    margin: 0.4rem;
+    padding: 0.4rem;
+    display: inline-block;
 }
 
 .link-primary {
@@ -63,8 +65,8 @@ hr {
 .navigation .nav-brand {
     color: white;
     padding: 1rem;
-    font-weight: bold;
-    font-size: large;
+    font-weight: bolder;
+    font-size: x-large;
 }
 
 .navigation .nav-pills {
@@ -73,6 +75,8 @@ hr {
 
 .navigation .nav-pills .link {
     color: white;
+    font-weight: bold;
+    font-size: larger;
 }
 
 .hero .hero-image {
@@ -99,14 +103,24 @@ hr {
     background-color: var(--off-white);
 }
 
+
 .footer {
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
+    padding-bottom: 0rem;
     border-top-right-radius: 2rem;
     text-align: center;
 }
 
 .footer .link {
     color: white;
+}
+
+.footer .footer-header {
+    padding: 1rem;
+}
+
+.footer .footer-social-links li {
+    margin: 0.2rem;
 }
